@@ -23,7 +23,7 @@ def transform_text(text):
 # Load the vectorizer and model
 try:
     tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
-    model = pickle.load(open('model.pkl', 'rb'))
+    model = pickle.load(open('modelmnb.pkl', 'rb'))
 except FileNotFoundError:
     st.error("Required model files (vectorizer.pkl, model.pkl) are missing.")
 
