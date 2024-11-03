@@ -1,6 +1,6 @@
 # Project Title
 
-*Spam Classifier ML Project*
+**Spam Classifier**
 
 ## Overview
 This project presents a Spam Classifier using Machine Learning techniques. The application is built with Streamlit, enabling users to classify messages as spam or not in real time. The project employs natural language processing (NLP) techniques to preprocess input data and a machine learning model to make predictions.
@@ -56,6 +56,9 @@ The dataset consists of labeled SMS messages categorized into 'spam' and 'ham' (
 https://spam-classifier-kgjfnt6wqkxchjcbodcdhp.streamlit.app/
 
 # Visuals
+
+![Spam Detection](spam.png)
+![Not Spam Detection](nspam.png)
 
 # Results and Recommendations
 The spam classifier has shown promising results, accurately classifying messages with high precision and recall. It is recommended to further enhance the model by:
